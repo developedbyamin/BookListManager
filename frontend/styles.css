@@ -1,0 +1,119 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 255, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00;
+    margin-bottom: 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    background-color: #363636;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.form-group button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #66bb6a;
+}
+
+.book-title-input,
+.book-author-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    background-color: #363636;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.add-book-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-book-btn:hover {
+    background-color: #66bb6a;
+}
+
+.book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-item {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 255, 0, 0.2);
+    position: relative;
+}
+
+.book-item .title {
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.book-item .author {
+    color: #ccc;
+}
+
+.book-item .delete-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-item .delete-btn:hover {
+    background-color: #e57373;
+}
